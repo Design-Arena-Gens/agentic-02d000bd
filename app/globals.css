@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-garden-night text-slate-100 font-body antialiased;
+}
+
+a {
+  @apply text-garden-leaf underline-offset-4 transition hover:text-garden-sun;
+}
